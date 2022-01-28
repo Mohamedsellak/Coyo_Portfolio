@@ -1,0 +1,309 @@
+ body{
+background-color: #ddd;
+}
+
+/* navigation bar start */
+
+/* navigation bar end */
+.navbar-brand span:first-child{
+    font-size:25px;
+    font-weight: bold;
+    margin-right: 3px;
+}
+.navbar-brand span:last-child{
+    font-size:25px;
+    color: #ddd ; 
+    background-color: cornflowerblue;
+    padding: 3px;
+    border-radius: 20px;
+}
+.navbar-nav .nav-link{
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: 400;
+}
+.navbar-nav .active{
+    color: cornflowerblue!important;
+    font-weight: bold;
+}
+
+/* hero start */
+
+.carousel-item {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+/*  Hero start */
+
+/* description start */
+
+#about {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 2rem;
+}
+#about .container {
+    box-shadow: 0px 2px 30px 0 #858585ce;
+    padding: 1.5rem;
+    border-radius: 4px;
+    display: flex;
+
+}
+#about .container::before {
+    content: "";
+    width: 16vw;
+    height: 16vw;
+    background: linear-gradient( to right bottom, rgb(152 152 152 / 66%), #d4d4d400);
+    box-shadow: 0px 16px 40px #00000025;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    z-index: -1;
+    -webkit-border-radius: 50%;
+}
+#about .container .container-fluid p{   text-align: justify;}
+#about .container .box-img-about img{
+    width: 190px;
+    height: 190px;
+}
+
+/* description end */
+
+/* progress start */
+
+
+.container h2,h4 {
+    margin-left: 40px;
+}
+.progress_bar{
+	margin-top: 10px;
+    padding: 50px 0px;
+	border-radius: 30px; 
+}
+.progress_icon{
+    color: #eee;
+    font-size: 30px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.progress_bar h3{
+    color:#a2d5e5;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.progress_bar h3 span{
+    float: right;
+    padding-bottom: 4px;
+
+}
+.progress_bar ul li{
+    padding: 10px 30px;
+}
+.bar {
+    height: 6px;
+    background-color:cadetblue;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.bar span{
+    height: 6px;
+    float: left;
+    border-radius: 5px;
+}
+.html{
+    background: rgb(200, 88, 8);
+    width: 95%;
+    animation: html 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+.css{
+    background: rgb(64, 175, 0);
+    width: 90%;
+    animation: css 3s;
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.js{
+    background: rgb(255, 251, 0);
+    width: 20%;
+    animation: js 3s;
+}
+@keyframes js{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+
+.Bootstrap{
+    background: rgb(255, 0, 0);
+    width: 70%;
+    animation: Bootstrap 3s;
+}
+@keyframes Bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+.php{
+    background: rgb(0, 107, 89);
+    width: 10%;
+    animation: php 3s;
+}
+@keyframes php{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 10%;
+    }
+}
+.react{
+    background: rgb(105, 10, 143);
+    width: 5%;
+    animation: react 3s;
+}
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 5%;
+    }
+}
+.python{
+    background: rgb(39, 65, 179);
+    width: 60%;
+    animation: python 3s;
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+.microsoft{
+    background: white;
+    width: 75%;
+    animation: microsoft 3s;
+}
+@keyframes microsoft{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+/* progress end  */
+
+/* Services start */
+
+.title{
+    color: cornflowerblue;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cardd{
+    background-color: cornflowerblue;
+    width: 21.25em;
+    border: 2px solid gold;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px ;
+    padding: 15px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.cardd:hover{
+    transform: scale(1.1);
+}
+.icon{
+    font-size:60px ;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #eee;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+/* Services end */
+
+
+
+
+
+
+
+/* card contact start */
+.contact{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.contact .card{
+    width: 40%!important;
+    border: 2px solid gold;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+hr{
+    font-weight: bold;
+    color: gray;
+    font-size: 20px;
+}
+.icon-contact{
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+.icon-contact a i{
+    color: cyan;
+}
+.icon-contact a:hover{
+    border: 2px solid gold;
+    border-radius: 20px;
+}
+
+
+
+/* card contact end  */
+
