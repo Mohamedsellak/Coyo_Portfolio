@@ -29,11 +29,36 @@ background-color: #ddd;
 
 /* hero start */
 
-.carousel-item {
+#hero{
+    height: 90vh;
+    background-image: url(/My-Portfolio/images/bg.jpg);
     background-size: cover;
-    width: 100%;
-    height: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
 }
+.dv{
+    color: cornflowerblue;
+    font-size: 60px;
+}
+.dv2,.dv1{
+    font-size: 30px;
+    
+}
+.dv2 i{
+    font-size: 30px;
+    color:cornflowerblue ;
+    margin-left: 10px;
+}
+.icons{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.icons a{
+    margin-left: 50px;
+}
+
 /*  Hero start */
 
 /* description start */
