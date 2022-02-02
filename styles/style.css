@@ -58,14 +58,15 @@ html{
     font-size: 50px;
     display: flex;
     justify-content: center;
+    transition: 0.7s ease;
 }
 .icons a{
-    margin-top: 90px;
+    margin-top: 80px;
     margin-left: 50px;
     color: #eee;
 }
 .icons a:hover{
-   font-size: 50px; 
+    transform: scale(1.1);
    color: #0070FF;
 }
 
