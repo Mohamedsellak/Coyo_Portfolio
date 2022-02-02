@@ -1,6 +1,9 @@
  body{
 background-color: #ddd;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* navigation bar start */
 
@@ -13,7 +16,7 @@ background-color: #ddd;
 .navbar-brand span:last-child{
     font-size:25px;
     color: #ddd ; 
-    background-color: cornflowerblue;
+    background-color: #0070FF;
     padding: 3px;
     border-radius: 20px;
 }
@@ -23,7 +26,7 @@ background-color: #ddd;
     font-weight: 400;
 }
 .navbar-nav .active{
-    color: cornflowerblue!important;
+    color: #0070FF!important;
     font-weight: bold;
 }
 
@@ -31,39 +34,47 @@ background-color: #ddd;
 
 #hero{
     height: 90vh;
-    background-image: url(/My-Portfolio/images/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-size: cover;
     border-radius: 20px;
     display: flex;
     align-items: center;
 }
 .dv{
-    color: cornflowerblue;
+    color: #0070FF;
     font-size: 60px;
 }
 .dv2,.dv1{
     font-size: 30px;
     
 }
-.dv2 i{
+.dv2{
     font-size: 30px;
-    color:cornflowerblue ;
-    margin-left: 10px;
+    color:#0070FF ;
+    margin-top: 50px;
+
 }
 .icons{
-    font-size: 30px;
+    font-size: 50px;
     display: flex;
     justify-content: center;
 }
 .icons a{
+    margin-top: 90px;
     margin-left: 50px;
+    color: #eee;
 }
+.icons a:hover{
+   font-size: 50px; 
+   color: #0070FF;
+}
+
 
 /*  Hero start */
 
 /* description start */
 
-#about {
+.about {
     height: auto;
     display: flex;
     justify-content: center;
@@ -71,14 +82,14 @@ background-color: #ddd;
     position: relative;
     padding: 2rem;
 }
-#about .container {
+.about .container {
     box-shadow: 0px 2px 30px 0 #858585ce;
     padding: 1.5rem;
     border-radius: 4px;
     display: flex;
 
 }
-#about .container::before {
+.about .container::before {
     content: "";
     width: 16vw;
     height: 16vw;
@@ -91,8 +102,8 @@ background-color: #ddd;
     z-index: -1;
     -webkit-border-radius: 50%;
 }
-#about .container .container-fluid p{   text-align: justify;}
-#about .container .box-img-about img{
+.about .container .container-fluid p{   text-align: justify;}
+.about .container .box-img-about img{
     width: 190px;
     height: 190px;
 }
@@ -253,7 +264,7 @@ background-color: #ddd;
 /* Services start */
 
 .title{
-    color: cornflowerblue;
+    color: #0070FF;
 }
 .content{
     display:flex;
@@ -262,7 +273,7 @@ background-color: #ddd;
     flex-wrap: wrap;
 }
 .cardd{
-    background-color: cornflowerblue;
+    background-color: #0070FF;
     width: 21.25em;
     border: 2px solid gold;
     border-radius: 30px;
@@ -299,7 +310,7 @@ background-color: #ddd;
 
 /* card contact start */
 .contact{
-    background-color: cornflowerblue;
+    background-color: #0070FF;
     display: flex;
     justify-content: space-around;
     height: 100%;
