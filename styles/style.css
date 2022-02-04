@@ -36,7 +36,7 @@ html{
     height: 90vh;
     background-image: url(../images/bg.jpg);
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
     display: flex;
     align-items: center;
 }
@@ -44,12 +44,20 @@ html{
     color: #0070FF;
     font-size: 60px;
 }
+@media (max-width:400px){
+    .dv{
+        font-size: 58px;  
+    }
+}
 .dv2,.dv1{
     font-size: 30px;
-    
+}
+@media (max-width:400px){
+    .dv1,.dv2{
+        font-size: 28px;  
+    }
 }
 .dv2{
-    font-size: 30px;
     color:#0070FF ;
     margin-top: 50px;
 
@@ -60,14 +68,24 @@ html{
     justify-content: center;
     transition: 0.7s ease;
 }
+@media (max-width:400px){
+    .icons a{
+          margin: 0px;
+    }
+}
+@media (min-width:400px){
+    .icons a{
+          margin-top: 90px;
+    }
+}
+
 .icons a{
-    margin-top: 80px;
     margin-left: 50px;
     color: #eee;
 }
 .icons a:hover{
     transform: scale(1.1);
-   color: #0070FF;
+    color: #0070FF;
 }
 
 
