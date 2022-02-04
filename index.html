@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 
 <body>
@@ -61,7 +62,7 @@
 
 
     <!-- Hero  start-->
-    <div class="container" id="hero">
+    <div class="container" id="hero" data-aos="flip-up">
         <div class="m-auto " id="hr">
             <p class="text-white fw-bold text-center pt-2 dv1 ">Welcome i'm Mohammed</p>
             <p class="text-primary fw-bold text-center dv">Front-end developper</p>
@@ -80,14 +81,12 @@
                     <i class="fab fa-linkedin-in"></i>
                 </a>
             </div>
-
-
         </div>
     </div>
     <!-- Hero  end-->
 
     <!-- Description start -->
-    <section id="Aboutme" class="about">
+    <section id="Aboutme" class="about" data-aos="fade-left">
         <div class="container w-100">
             <div class="container-fluid">
                 <h2 class="h2">About Me</h2>
@@ -144,7 +143,7 @@
 
     <!-- progress start -->
 
-    <section id="Skills" class="container bg-dark progress_bar">
+    <section id="Skills" class="container bg-dark progress_bar" data-aos="fade-right">
 
         <div class="container">
             <h2 class="text-white fw-bold">SKills</h2>
@@ -218,7 +217,7 @@
     <!-- progress end -->
 
     <!-- Services start -->
-    <section class="cards" id="services">
+    <section class="cards" id="services" data-aos="fade-down">
         <h1 class="title text-center my-3 fw-bold">Services</h1>
         <div class="content">
             <div class="cardd">
@@ -256,7 +255,14 @@
 
 
     <!-- Services end -->
+
+    <!-- Scripts -->
+
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
