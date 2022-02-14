@@ -22,7 +22,7 @@
 
     <!-- navigation bar start-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <span>CO</span><span>YO</span>
@@ -89,17 +89,17 @@
     <section id="Aboutme" class="about" data-aos="fade-left">
         <div class="container w-100">
             <div class="container-fluid">
-                <h2 class="h2">About Me</h2>
-                <p class="fw-lighter fs-6 text-dark">
+                <h2 class="h2 fw-bold pb-3">About <span class="text-primary">Me</span></h2>
+                <p class="fs-6 fw-bold text-dark">
                     Hi, i'm Mohammed Sellak. I'm a Front-end developer. Specialize
                     in Html5 css and javaScript with decent knowledge in other technologie
-                    in the field as well. For an in-depth insight into my skills and qualification
-                    I invite you to check out <a class="pe-auto" href="#"> my Resume</a>.
+                    in the field as well. For an in-depth insight into my skills and qualification .
+
                 </p>
                 <!-- this part is for read more -->
                 <div class="collapse " id="collapseExample">
                     <div class="card card-body ">
-                        <p>
+                        <p class="fs-6 fw-bold text-dark">
                             As I said before, my name is Mohammed. I'm a 18 years old young man from Morocco.
                             I first found out about this programming field last year and liked it so much,
                             so I decided that is what I'm gonna do. After doing a ton of research on the internet,
@@ -110,8 +110,9 @@
                             <br>
                             I used a wide collection of resources in my learning,
                             from <a class="pe-auto" target="_blank"
-                                href="https://www.freecodecamp.org/">freeCodeCamp</a> and <a class="pe-auto"
-                                target="_blank" href="https://developer.mozilla.org/">MDN</a> to YouTube
+                                href="https://www.freecodecamp.org/">freeCodeCamp</a>
+                            and <a class="pe-auto" target="_blank" href="https://developer.mozilla.org/">MDN</a> to
+                            YouTube
                             (I watched so many videos from these channels: Traversy media, Web Dev Simplified, Fireship,
                             el zero web school , learn in hours,.. and so many others).
                             solved so many algorithmic challenges over HackerRank,
@@ -143,35 +144,35 @@
 
     <!-- progress start -->
 
-    <section id="Skills" class="container bg-dark progress_bar" data-aos="fade-right">
+    <section id="Skills" class="container bg-dark progress_bar" data-aos="flip-up">
 
         <div class="container">
-            <h2 class="text-white fw-bold">SKills</h2>
-            <h4 class="text-white "> Programming languages & tools</h4>
+            <h2 class="text-primary pb-4 fw-bold fs-1">Skills</h2>
+            <h4 class="text-white pb-3 "> Programming languages & tools</h4>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
                     <ul>
-                        <li>
+                        <li data-aos="fade-up">
                             <div class="progress_icon"><i style="color:  rgb(200, 88, 8);" class="fab fa-html5"></i>
                             </div>
                             <h3>HTML <span>%</span><span class="counter">95</span></h3>
                             <div class="bar"><span class="html"></span></div>
                         </li>
 
-                        <li>
+                        <li data-aos="fade-right">
                             <div class="progress_icon"><i style="color:  rgb(64, 175, 0);" class="fab fa-css3"></i>
                             </div>
                             <h3>CSS <span>%</span><span class="counter">80</span></h3>
                             <div class="bar"><span class="css"></span></div>
                         </li>
 
-                        <li>
+                        <li data-aos="fade-left">
                             <div class="progress_icon"><i style="color:  rgb(255, 251, 0);" class="fab fa-js"></i></div>
                             <h3>javascript <span>%</span><span class="counter">20</span></h3>
                             <div class="bar"><span class="js"></span></div>
                         </li>
 
-                        <li>
+                        <li data-aos="fade-down">
                             <div class="progress_icon"><i style="color:  rgb(255, 0, 0);" class="fab fa-bootstrap"></i>
                             </div>
                             <h3>Bootstrap <span>%</span><span class="counter">70</span></h3>
@@ -182,27 +183,27 @@
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                     <ul>
-                        <li>
+                        <li data-aos="fade-up">
                             <div class="progress_icon"><i style="color: rgb(0, 107, 89);" class="fab fa-php"></i></div>
                             <h3>PHP <span>%</span><span class="counter">10</span></h3>
                             <div class="bar"><span class="php"></span></div>
                         </li>
 
-                        <li>
+                        <li data-aos="fade-right">
                             <div class="progress_icon"><i style="color:  rgb(105, 10, 143);" class="fab fa-react"></i>
                             </div>
                             <h3>REACT <span>%</span><span class="counter">5</span></h3>
                             <div class="bar"><span class="react"></span></div>
                         </li>
 
-                        <li>
+                        <li data-aos="fade-left">
                             <div class="progress_icon"><i style="color:  rgb(39, 65, 179); " class="fab fa-python"></i>
                             </div>
                             <h3>PYTHON <span>%</span><span class="counter">60</span></h3>
                             <div class="bar"><span class="python"></span></div>
                         </li>
 
-                        <li>
+                        <li data-aos="fade-down">
                             <div class="progress_icon"><i style="color:  white; " class="fab fa-microsoft"></i></div>
                             <h3>MICROSOFT OFFICE <span>%</span><span class="counter">75</span></h3>
                             <div class="bar"><span class="microsoft"></span></div>
@@ -217,44 +218,67 @@
     <!-- progress end -->
 
     <!-- Services start -->
-    <section class="cards" id="services" data-aos="fade-down">
-        <h1 class="title text-center my-3 fw-bold">Services</h1>
-        <div class="content">
-            <div class="cardd">
-                <div class="icon">
-                    <i class="fs-1 fas fa-file-code "></i>
-                </div>
-                <div class="info">
-                    <h3>Web Developer</h3>
-                    <p> I like to code things from scratch and enjoy bringing ideas to life in the browser .</p>
-                    <a href="Contact.html" class="btn btn-warning">Let's Work</a>
-                </div>
+    <section class="container" id="services" data-aos="fade-down">
+        <h1 class="title text-center my-3 fw-bold">Se<span>rvic</span>es </h1>
+        <div class="ser">
+            <div class="services" data-aos="fade-right">
+                <i class=" fas fa-laptop-code "></i>
+                <h3>Web Developer</h3>
+                <h6> I like to code things from scratch and enjoy bringing ideas to life in the browser .</h6>
             </div>
-            <div class="cardd">
-                <div class="icon">
-                    <i class="fs-1 fas fa-paint-brush "></i>
-                </div>
-                <div class="info">
-                    <h3>UI / UX Design</h3>
-                    <p> value simple content structure clean design and thouthtful interactions</p>
-                    <a href="Contact.html" class="btn btn-warning">Let's Work</a>
-                </div>
+            <div class="services" data-aos="fade-left">
+                <i class=" fas fa-mobile-alt "></i>
+                <h3>App Development</h3>
+                <h6> I build apps that use the latest technology so that your app is ahead of your competiton</h6>
             </div>
-            <div class="cardd">
-                <div class="icon">
-                    <i class="fs-1 fab fa-app-store"></i>
-                </div>
-                <div class="info">
-                    <h3>Mobile App Developer</h3>
-                    <p> I build apps tat use te latest technology so that your app is ahead of your competiton </p>
-                    <a href="Contact.html" class="btn btn-warning">Let's Work</a>
-                </div>
+            <div class="services" data-aos="fade-up">
+                <i class=" fas fa-palette "></i>
+                <h3>Graphics</h3>
+                <h6> value simple content structure clean design and thouthtful interactions</h6>
             </div>
+            <div class="services" data-aos="fade-down">
+                <i class="fas fa-network-wired"></i>
+                <h3>Networking</h3>
+                <h6> I like to code things from scratch and enjoy bringing ideas to life in the browser .</h6>
+            </div>
+
+            <div class="services" data-aos="fade-right">
+                <i class=" fas fa-chart-line "></i>
+                <h3>Marketing</h3>
+                <h6> I like to code things from scratch and enjoy bringing ideas to life in the browser .</h6>
+            </div>
+            <div class="services" data-aos="fade-left">
+                <i class=" fas fa-chart-pie "></i>
+                <h3>Data Analysis</h3>
+                <h6> I like to code things from scratch and enjoy bringing ideas to life in the browser .</h6>
+            </div>
+
+            <div class="services" data-aos="fade-up">
+                <i class=" fas fa-file-invoice-dollar"></i>
+                <h3>Accounting</h3>
+                <h6> I like to code things from scratch and enjoy bringing ideas to life in the browser .</h6>
+            </div>
+            <div class="services" data-aos="fade-down">
+                <i class=" fas fa-id-badge "></i>
+                <h3>Payroll</h3>
+                <h6> I like to code things from scratch and enjoy bringing ideas to life in the browser .</h6>
+            </div>
+
+
         </div>
+
     </section>
 
 
     <!-- Services end -->
+
+    <footer>
+
+    </footer>
+
+
+
+    <a href="#top" class="top"> <i class="fas fa-arrow-up"></i></a>
 
     <!-- Scripts -->
 
