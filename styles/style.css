@@ -264,7 +264,7 @@ h4 {
 
 .php {
   background: rgb(0, 107, 89);
-  width: 55%;
+  width: 88%;
   animation: php 3s;
 }
 @keyframes php {
@@ -272,7 +272,7 @@ h4 {
     width: 0%;
   }
   100% {
-    width: 55%;
+    width: 88%;
   }
 }
 .react {
